@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Samosa Survey Form || FCC</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <title>Survery Form || FCC</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      </head>
+
+      <body>
+        <div class="container">
+          <header class="header">
+            <h1 id="title" class="text-center">Samosa Survery Form</h1>
+            <p id="description" class="description text-center">
+              Thank you for taking time to help us improve our Samosa!
+            </p>
+          </header>
+
+          <form id="survery-form">
+            <div class="form-group">
+              <label id="name-label" for="name">Name:</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="form-control"
+                placeholder="Enter your Name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label id="email-label" for="email">Email:</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Enter your Email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label id="number-label" for="number"
+                >Age<span class="clue">(optional):</span></label
+              >
+              <input
+                type="number"
+                name="age"
+                id="number"
+                min="13"
+                max="120"
+                class="form-control"
+                placeholder="Age"
+              />
+            </div>
+            <div class="form-control">
+              <label for="prowess"
+                >Which option best describes your Samosa Eating Prowess?</label
+              >
+              <select name="prowess" id="dropdown">
+                <option value="ninja">Samosa-eating Ninja</option>
+                <option value="regular">Regular Samosa eater</option>
+                <option value="occasional">Occasional Samosa Eater</option>
+                <option value="dislike">Don't like Samosa</option>
+              </select>
+            </div>
+          </form>
+        </div>
+      </body>
+    </html>
+  </body>
+</html>
