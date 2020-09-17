@@ -5,11 +5,14 @@
 
 h4 {
   text-align: center;
-  background-color: rgba(45, 45, 45, 0.06);
+  background: linear-gradient(35deg, #ccffff, #ffcccc);
   padding: 10px;
   font-size: 36px;
   font-weight: 699;
   text-transform: uppercase;
+}
+h4:hover {
+  transform: scale(1.2) skewX(2deg);
 }
 h2 {
   position: relative;
@@ -104,6 +107,9 @@ a {
   margin-bottom: 40px;
   height: 200px;
 }
+.oho:hover {
+  transform: scale(1.2);
+}
 
 .first {
   background-color: orange;
@@ -121,4 +127,29 @@ a {
   background-color: green;
   position: absolute;
   height: 600px;
+}
+.green {
+  background-color: hsl(120, 100%, 50%);
+}
+
+.cyan {
+  background-color: hsl(180, 100%, 50%);
+}
+
+.blue {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.hi {
+  border-radius: 20px;
+  width: 70%;
+  height: 400px;
+  margin: 50 auto;
+  background: repeating-linear-gradient(
+    45deg,
+    yellow 0px,
+    yellow 40px,
+    black 40px,
+    black 80px;
+  );
 }
