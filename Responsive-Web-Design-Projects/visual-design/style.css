@@ -11,6 +11,13 @@ h4 {
   font-weight: 699;
   text-transform: uppercase;
 }
+h2 {
+  position: relative;
+  top: 10px;
+  right: 25px;
+  bottom: 10px;
+  left: 15px;
+}
 h4:hover {
   color: peru;
 }
@@ -53,4 +60,65 @@ color, in that order. */
 }
 .cardContent {
   padding: 10px;
+}
+#searchbar {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+.right {
+  float: right;
+  width: 15%;
+  font-size: 190%;
+}
+#nav1 {
+  float: center;
+  top: 20px;
+  font-size: 100%;
+  left: 100px;
+}
+#navbar {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: #dfdada34;
+}
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+.oho {
+  width: 60%;
+  margin-top: 20px;
+  margin-left: 50px;
+  border-radius: 5px;
+  margin-bottom: 40px;
+  height: 200px;
+}
+
+.first {
+  background-color: orange;
+  height: 200px;
+  position: absolute;
+  z-index: 2;
+}
+.second {
+  background-color: rgba(238, 234, 234, 0.911);
+  position: absolute;
+  height: 400px;
+  z-index: 1;
+}
+.third {
+  background-color: green;
+  position: absolute;
+  height: 600px;
 }
