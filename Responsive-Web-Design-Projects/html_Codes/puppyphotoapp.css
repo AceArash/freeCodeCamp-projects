@@ -26,5 +26,23 @@ p {
   background-color: grey;
 }
 #puppy-photo-form {
+  margin: 20px 20px 20px 20px;
   background: greenyellow;
+}
+
+[type="checkbox"] {
+  margin: 10px 0px 15px 0px;
+}
+
+.red-text {
+  color: #f00;
+}
+.fuchsia-text {
+  color: #f0f;
+}
+.cyan-text {
+  color: #0ff;
+}
+.green-text {
+  color: #0f0;
 }
