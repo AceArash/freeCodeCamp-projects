@@ -7,17 +7,26 @@
     <link rel="stylesheet" href="puppyphotoapp.css" />
   </head>
   <body>
-    <h2 id="top">PuppyPhotoApp</h2>
+    <h2 id="top" class="aqua-text">PuppyPhotoApp</h2>
+    <style>
+      .aqua-text {
+        color: aqua;
+      }
+      .pink-text {
+        color: pink;
+      }
+    </style>
     <main>
       <a href="https://freecatphotoapp.com" target="_blank">Cute Puppy photo</a>
       <a href="#footer">Jump to Bottom</a>
 
       <img
         src="https://i.pinimg.com/originals/ed/6f/c2/ed6fc28d25da28c73e45ed762a26bbd3.jpg"
+        class="larger-image"
         alt="A cute orange Puppy smiling!"
       />
 
-      <p>
+      <p class="aqua-text">
         Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching
         attack your ankles chase the red dot, hairball run catnip eat the grass
         sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed
@@ -34,7 +43,7 @@
         sniff. Purr jump eat the grass rip the couch scratched sunbathe, shed
         everywhere rip the couch sleep in the sink fluffy fur catnip scratched.
       </p>
-      <p>
+      <p class="pink-text">
         Meowwww loved it, hated it, loved it, hated it yet spill litter box,
         scratch at owner, destroy all furniture, especially couch or lay on arms
         while you're using the keyboard. Missing until dinner time toy mouse
@@ -57,7 +66,10 @@
         for you to follow.
       </p>
 
-      <form action="https://freecatphotoapp.com/submit-cat-photo">
+      <form
+        action="https://freecatphotoapp.com/submit-cat-photo"
+        id="puppy-photo-form"
+      >
         <label for="indoor"
           ><input
             id="indoor"
@@ -111,3 +123,4 @@
 </html>
 
 <!--Radio buttons(Only one answer)/Checkboxs(more than one answer) are a type of INPUT-->
+<!---->

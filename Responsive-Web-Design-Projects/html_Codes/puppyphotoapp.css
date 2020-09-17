@@ -16,3 +16,15 @@ img {
   margin: 50px 20px 40px 130px;
   border-radius: 25%;
 }
+.larger-image {
+  width: 500px;
+  border-color: red;
+  border-width: 5px;
+  border-style: solid;
+}
+p {
+  background-color: grey;
+}
+#puppy-photo-form {
+  background: greenyellow;
+}
