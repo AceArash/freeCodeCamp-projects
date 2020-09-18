@@ -1,0 +1,172 @@
+* {
+  background: aquamarine;
+  margin: 10px;
+  padding: 10px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+}
+header .profile-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+}
+header .profile-name {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+header .follow-btn {
+  display: flex;
+  margin: 0 0 0 auto;
+}
+header .follow-btn button {
+  border: 0;
+  border-radius: 3px;
+  padding: 5px;
+}
+header h3,
+header h4 {
+  display: flex;
+  margin: 0;
+}
+#inner p {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+#inner hr {
+  margin: 20px 0;
+  border-style: solid;
+  opacity: 0.1;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+}
+footer .stats {
+  display: flex;
+
+  font-size: 15px;
+}
+footer .stats strong {
+  font-size: 18px;
+}
+footer .stats .likes {
+  margin-left: 10px;
+}
+footer .cta {
+  margin-left: auto;
+}
+footer .cta button {
+  border: 0;
+  background: transparent;
+}
+
+#box-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#box-1 {
+  background-color: limegreen;
+  width: 50%;
+  height: 50%;
+}
+
+#box-2 {
+  background-color: orangered;
+  width: 50%;
+  height: 50%;
+}
+
+#box-container1 {
+  display: flex;
+  height: 500px;
+  flex-direction: row-reverse;
+}
+#box-1a {
+  background-color: dodgerblue;
+  width: 50%;
+  height: 50%;
+}
+
+#box-2a {
+  background-color: orangered;
+  width: 50%;
+  height: 50%;
+}
+
+#box-container2 {
+  background: gray;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+}
+#box-1b {
+  background-color: dodgerblue;
+  width: 25%;
+  height: 100%;
+}
+
+#box-2b {
+  background-color: orangered;
+  width: 25%;
+  height: 100%;
+}
+
+#box-container3 {
+  display: flex;
+  height: 500px;
+}
+#box-1c {
+  background-color: dodgerblue;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 1;
+}
+
+#box-2c {
+  background-color: orangered;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 2;
+}
+
+#box-container4 {
+  display: flex;
+  height: 500px;
+  flex-direction: row-reverse;
+}
+#box-1d {
+  background-color: dodgerblue;
+  flex: 2 2 150px;
+
+  height: 200px;
+}
+
+#box-2d {
+  background-color: orangered;
+  flex: 1 1 150px;
+
+  height: 200px;
+}
+
+#quote {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  background: rgb(121, 68, 31);
+}
+
+#quote p {
+  font-size: 125%;
+  display: flex;
+}
