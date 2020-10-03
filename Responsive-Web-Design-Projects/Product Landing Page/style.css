@@ -3,3 +3,11 @@
 #header-img {
   width: 150px;
 }
+.nav-link {
+  padding: 20px;
+  margin: 20px;
+}
+
+.flex-container {
+  display: flex;
+}
