@@ -4,6 +4,12 @@
 
 * {
   font-family: "Galdeano", sans-serif;
+  box-sizing: border-box;
+}
+section {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
 }
 #header-img {
   width: 150px;
@@ -15,6 +21,7 @@
 
 .flex-container {
   display: flex;
+  justify-content: center;
 }
 /* Media Query */
 /* Extra small devices (phones, 600px and down) */
